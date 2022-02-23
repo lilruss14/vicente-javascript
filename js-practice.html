@@ -40,9 +40,7 @@
     let name = firstName + " " + middleName + " " + lastName;
     console.log(name);
 
-    /*
-    Strings on my own
-    */
+    console.log("Strings on my own");
 
     let start = 'My';
     let halfway =  "name";
@@ -53,6 +51,32 @@
 
     let yourName = greeting + " " + name;
     console.log(yourName);
+
+    console.log("Using function");
+
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    console.log(makeSquare(5));
+
+    console.log("Functions on my own");
+
+    function makeName(firstName, middleName, lastName) {
+      let full = firstName + " " + middleName + " " + lastName;
+      return full;
+    }
+
+    console.log(makeName("Vicente","Rene","Montalvo"));
+
+    console.log(makeName("Paulo","Roberto","Nagamura"));
+
+    console.log(makeName("Robert","\"Beto\"","O\'Rourke"));
+
   </script>
 </body>
 </html>
